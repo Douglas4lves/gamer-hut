@@ -1,0 +1,167 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: 0;
+   list-style: none;
+   
+}
+
+/*cabeçalho*/
+header{
+    background-color: #000e29;
+}
+
+.topo {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Menu*/
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+/*Icone rede social*/
+.redesocial{
+    width: 25px;
+    height: 25px;
+}
+
+/*Logo*/
+
+.logo{
+    color: white;
+    text-transform: uppercase;
+    
+    
+} 
+.logo-position{
+    position: absolute;
+    top: -10px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background: #ff6123;
+}
+
+/*Titulo antes do conteudo principal*/
+
+.top{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.top h1{
+    font-weight: bold;
+}
+
+/*Conteudo principal*/
+
+main{
+    max-width: 1200px; /*define o tamanho máximo da div*/
+    margin: 0 auto; /*Centraliza o conteúdo na horizontal*/
+    padding: 0 20px;
+    min-height: 100vh;/*faz a main ocupar a tela toda visivel, para o footer ficar no final*/
+}
+
+.conteudos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.artigo{
+    flex: 1;
+    max-width: 356px;
+    max-height: 500px;
+    overflow: hidden;/*Garante que a img siga o formato da div arrendodado*/
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+.conteudo-interno{
+    padding: 10px 30px;
+}
+
+.banner{
+    width: 358px;
+    height: 250px;
+    background-color: red;
+}
+
+.btn-post{
+    width: 120px;
+    height: 30px;
+    gap: 10px;
+    position: relative;
+    top: -20px;
+    left: 30px;
+    text-justify: center;
+    text-align: center;
+    border-radius: 15px;
+    background: #ff6123;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-post a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFF;
+}
+
+
+
+/*Footer*/
+
+
+footer{
+    background: #000e29;
+    
+}
+
+.final{
+    max-width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+}
+
+.copy a{
+    color: #ff6123;
+}
+
+
+.logo-footer{
+    background-color: #ff6123;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+
